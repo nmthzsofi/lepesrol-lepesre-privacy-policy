@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy – Lépésről Lépésre</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      max-width: 720px;
+      margin: 48px auto;
+      padding: 0 24px 64px;
+      line-height: 1.7;
+      color: #1a1a1a;
+      background: #fff;
+    }
+    h1 { font-size: 26px; font-weight: 600; margin-bottom: 4px; }
+    h2 { font-size: 17px; font-weight: 600; margin-top: 40px; margin-bottom: 8px; border-bottom: 1px solid #e5e5e5; padding-bottom: 6px; }
+    h3 { font-size: 15px; font-weight: 600; margin-top: 24px; margin-bottom: 4px; }
+    p  { margin: 10px 0; font-size: 15px; color: #333; }
+    ul { padding-left: 20px; margin: 8px 0; }
+    li { margin: 4px 0; font-size: 15px; color: #333; }
+    a  { color: #0066cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .meta { font-size: 14px; color: #666; margin-bottom: 32px; }
+    .meta span { margin-right: 24px; }
+    hr { border: none; border-top: 1px solid #e5e5e5; margin: 32px 0; }
+    strong { color: #1a1a1a; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      margin: 16px 0;
+    }
+    th {
+      background: #f5f5f5;
+      text-align: left;
+      padding: 10px 12px;
+      font-weight: 600;
+      border: 1px solid #e0e0e0;
+      color: #1a1a1a;
+    }
+    td {
+      padding: 9px 12px;
+      border: 1px solid #e0e0e0;
+      vertical-align: top;
+      color: #333;
+    }
+    tr:nth-child(even) td { background: #fafafa; }
+
+    .highlight {
+      background: #f0f7ff;
+      border-left: 3px solid #0066cc;
+      padding: 10px 14px;
+      border-radius: 0 6px 6px 0;
+      margin: 12px 0;
+      font-size: 14px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Privacy Policy</h1>
+  <div class="meta">
+    <span><strong>App:</strong> Lépésről Lépésre</span>
+    <span><strong>Last updated:</strong> March 22, 2026</span>
+    <span><strong>Developer:</strong> Zsófia Németh</span>
+  </div>
+
+  <hr>
+
+  <h2>1. Introduction</h2>
+  <p>Lépésről Lépésre ("the app", "we", "us") is a fitness tracking application that helps you set virtual journeys and track your progress through physical activity. This Privacy Policy explains what personal data we collect, why we collect it, how it is used, and what rights you have over your data.</p>
+  <p>By using the app, you agree to the collection and use of data as described in this policy.</p>
+
+  <h2>2. Data We Collect</h2>
+
+  <h3>2.1 Account &amp; Authentication Data</h3>
+  <ul>
+    <li><strong>Email address</strong> — used to create and authenticate your account</li>
+    <li><strong>Password</strong> — stored in hashed form by Firebase Authentication (Google). We never have access to your plain-text password.</li>
+  </ul>
+
+  <h3>2.2 Profile Data</h3>
+  <p>The following information is collected during onboarding and stored in your user profile:</p>
+  <ul>
+    <li>First name and last name</li>
+    <li>Username (unique, public-facing identifier)</li>
+    <li>Sex (Male, Female, Non-binary, or "Prefer not to say")</li>
+    <li>Date of birth</li>
+    <li>Height (in centimetres)</li>
+    <li>Weight (in kilograms)</li>
+    <li>Profile photo (optional)</li>
+  </ul>
+  <p>This data is used to personalise your experience and calculate fitness estimates (e.g. calories burned, stride length).</p>
+
+  <h3>2.3 Fitness &amp; Activity Data</h3>
+  <ul>
+    <li><strong>Lifetime step count</strong> — an aggregate total of all steps you have logged</li>
+    <li><strong>Journey progress</strong> — your step contributions toward each journey goal</li>
+    <li><strong>Badges</strong> — achievement flags earned through activity milestones</li>
+  </ul>
+  <p>Activity details you enter (activity type, duration, intensity) are used solely to calculate a step count on your device. <strong>Raw activity details are not stored or transmitted.</strong></p>
+
+  <h3>2.4 Journey &amp; Location Data</h3>
+  <p>When you create a journey, we store:</p>
+  <ul>
+    <li>Journey name, icon, and type (individual, cooperative, or race)</li>
+    <li>Start and end coordinates (latitude and longitude) for the chosen route</li>
+    <li>Your progress along the route (derived from step count)</li>
+  </ul>
+  <div class="highlight">The app does not track your real-time GPS location, movement, or physical whereabouts at any time.</div>
+  <p>To look up place names, your search queries and selected coordinates are sent to the OpenStreetMap Nominatim geocoding service (see Section 4).</p>
+
+  <h3>2.5 Profile Photo</h3>
+  <p>If you choose to upload a profile photo, the image is stored in Firebase Cloud Storage. A reference URL is saved in your user profile.</p>
+
+  <h3>2.6 Data We Do NOT Collect</h3>
+  <ul>
+    <li>Real-time device location or GPS tracking</li>
+    <li>Health platform data (Apple HealthKit, Google Fit)</li>
+    <li>Device identifiers, advertising IDs, or IMEI</li>
+    <li>Phone number or contacts</li>
+    <li>Raw activity logs (type, duration, intensity are not stored)</li>
+    <li>Crash reports, usage analytics, or behavioural tracking</li>
+  </ul>
+
+  <h2>3. How We Use Your Data</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Purpose</th>
+        <th>Data Used</th>
+        <th>Legal Basis (GDPR)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Account creation and authentication</td><td>Email, password</td><td>Contract performance</td></tr>
+      <tr><td>Personalising your fitness experience</td><td>Profile data, step count</td><td>Contract performance</td></tr>
+      <tr><td>Calculating fitness estimates (calories, stride)</td><td>Height, weight</td><td>Contract performance</td></tr>
+      <tr><td>Displaying your journey on the map</td><td>Journey coordinates</td><td>Contract performance</td></tr>
+      <tr><td>Group journey features (leaderboard, progress sync)</td><td>First name, step count</td><td>Contract performance</td></tr>
+      <tr><td>Awarding badges and tracking milestones</td><td>Lifetime step count</td><td>Contract performance</td></tr>
+      <tr><td>Sending email verification and password reset links</td><td>Email address</td><td>Contract performance / Legitimate interest</td></tr>
+    </tbody>
+  </table>
+  <p>We do not use your data for advertising, profiling, or any automated decision-making.</p>
+
+  <h2>4. Data Shared with Third Parties</h2>
+  <p>We use the following third-party services to operate the app. We do not sell your data to any third party.</p>
+
+  <h3>4.1 Google Firebase</h3>
+  <p>Your account credentials, profile data, journey data, and profile photos are stored on Google's Firebase platform. Firebase operates under Google's privacy and security framework, which includes compliance with GDPR.</p>
+  <ul>
+    <li><a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></li>
+  </ul>
+
+  <h3>4.2 OpenStreetMap Nominatim</h3>
+  <p>When you search for a journey start or end location, your search query and the selected coordinates are sent to Nominatim, a free public geocoding service operated by the OpenStreetMap Foundation. No personal account data is transmitted — only the location query itself.</p>
+  <ul>
+    <li><a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy" target="_blank">OpenStreetMap Privacy Policy</a></li>
+  </ul>
+
+  <h3>4.3 No Other Third Parties</h3>
+  <p>The app does not integrate analytics platforms, crash reporting tools, or advertising networks.</p>
+
+  <h2>5. Data Shared with Other Users</h2>
+  <p>When you join or create a group journey, your <strong>first name</strong> and <strong>current step count</strong> for that journey are visible to other members. Your <strong>ranking position</strong> is shown on the group leaderboard.</p>
+  <p>The following is <strong>never</strong> shared with other users: last name, email, date of birth, height, weight, sex, profile photo, total lifetime steps, or any individual goals.</p>
+  <p>Group access is controlled by an 8-character share code. Only people you share the code with can join your group journey.</p>
+
+  <h2>6. Data Retention</h2>
+  <ul>
+    <li><strong>Account data</strong> is retained for as long as your account is active.</li>
+    <li><strong>Journey data</strong> is retained until you delete the journey.</li>
+    <li><strong>Profile photos</strong> are retained in Firebase Cloud Storage until your account or photo is deleted.</li>
+    <li>To request full deletion of your data, contact us at <a href="mailto:nemethzsofia442@gmail.com">nemethzsofia442@gmail.com</a>. We will process such requests within 30 days.</li>
+  </ul>
+
+  <h2>7. Your Rights (GDPR)</h2>
+  <p>If you are located in the European Economic Area (EEA), you have the following rights:</p>
+  <ul>
+    <li><strong>Right of access</strong> — Request a copy of the personal data we hold about you.</li>
+    <li><strong>Right to rectification</strong> — Correct inaccurate or incomplete data via the app's profile settings.</li>
+    <li><strong>Right to erasure</strong> — Request deletion of your personal data ("right to be forgotten").</li>
+    <li><strong>Right to data portability</strong> — Request your data in a machine-readable format.</li>
+    <li><strong>Right to restrict processing</strong> — Ask us to limit how we use your data.</li>
+    <li><strong>Right to withdraw consent</strong> — Withdraw consent at any time without affecting prior processing.</li>
+    <li><strong>Right to lodge a complaint</strong> — Contact your local data protection authority.</li>
+  </ul>
+  <p>To exercise any of these rights, contact <a href="mailto:nemethzsofia442@gmail.com">nemethzsofia442@gmail.com</a>.</p>
+
+  <h2>8. Children's Privacy</h2>
+  <p>The app is not intended for use by children under the age of 13 (or under 16 in certain EEA countries). We do not knowingly collect personal data from children. If you believe a child has provided us with personal data, please contact us and we will delete it promptly.</p>
+
+  <h2>9. Data Security</h2>
+  <p>All communication with Firebase is encrypted in transit (HTTPS/TLS). Passwords are never stored in plain text. Access to Firestore data is governed by security rules that restrict each user to their own data.</p>
+  <p>However, no method of electronic transmission or storage is 100% secure. We cannot guarantee absolute security.</p>
+
+  <h2>10. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. We will notify you of significant changes by updating the "Last updated" date at the top of this document. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+
+  <h2>11. Contact</h2>
+  <p><strong>Zsófia Németh</strong><br>
+  Email: <a href="mailto:nemethzsofia442@gmail.com">nemethzsofia442@gmail.com</a></p>
+
+</body>
+</html>
